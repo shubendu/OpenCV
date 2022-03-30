@@ -16,4 +16,7 @@ cv.imshow('Rec',blank)
 #draw a circle
 cv.circle(blank, (blank.shape[1]//2,blank.shape[0]//2), 40, (0,0,255), thickness=3)
 cv.imshow('Circle',blank)
+
+#draw a line
+cv.line()
 cv.waitKey(0) 
